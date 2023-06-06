@@ -221,3 +221,43 @@ var keyidentifier_keysym = {
     "Zenkaku": [0xFF28],
     "ZenkakuHankaku": [0xFF2A]
 };
+var keycodeKeysyms = {
+        8:   [0xFF08], // backspace
+        9:   [0xFF09], // tab
+        13:  [0xFF0D], // enter
+        16:  [0xFFE1, 0xFFE1, 0xFFE2], // shift
+        17:  [0xFFE3, 0xFFE3, 0xFFE4], // ctrl
+        18:  [0xFFE9, 0xFFE9, 0xFE03], // alt
+        19:  [0xFF13], // pause/break
+        20:  [0xFFE5], // caps lock
+        27:  [0xFF1B], // escape
+        32:  [0x0020], // space
+        33:  [0xFF55], // page up
+        34:  [0xFF56], // page down
+        35:  [0xFF57], // end
+        36:  [0xFF50], // home
+        37:  [0xFF51], // left arrow
+        38:  [0xFF52], // up arrow
+        39:  [0xFF53], // right arrow
+        40:  [0xFF54], // down arrow
+        45:  [0xFF63], // insert
+        46:  [0xFFFF], // delete
+        91:  [0xFFEB], // left window key (hyper_l)
+        92:  [0xFF67], // right window key (menu key?)
+        93:  null,     // select key
+        112: [0xFFBE], // f1
+        113: [0xFFBF], // f2
+        114: [0xFFC0], // f3
+        115: [0xFFC1], // f4
+        116: [0xFFC2], // f5
+        117: [0xFFC3], // f6
+        118: [0xFFC4], // f7
+        119: [0xFFC5], // f8
+        120: [0xFFC6], // f9
+        121: [0xFFC7], // f10
+        122: [0xFFC8], // f11
+        123: [0xFFC9], // f12
+        144: [0xFF7F], // num lock
+        145: [0xFF14], // scroll lock
+        225: [0xFE03]  // altgraph (iso_level3_shift)
+};
